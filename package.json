@@ -6,9 +6,18 @@
   "author": "zhuanghaixin <649308293@qq.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "electrondemo.zhuanghaixin.cn",
+    "mac": {
+      "category": "game"
+    }
   },
   "devDependencies": {
-    "electron": "^6.0.7"
+    "electron": "^6.0.7",
+    "electron-builder": "^21.2.0"
   }
 }
