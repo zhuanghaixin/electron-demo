@@ -1,0 +1,14 @@
+{
+  "name": "electron-demo-1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:zhuanghaixin/electron-demo.git",
+  "author": "zhuanghaixin <649308293@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^6.0.7"
+  }
+}
